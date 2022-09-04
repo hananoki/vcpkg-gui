@@ -1,0 +1,3 @@
+[submodule "Qtlib"]
+	path = Qtlib
+	url = git@github.com:hananoki/Qtlib.git
