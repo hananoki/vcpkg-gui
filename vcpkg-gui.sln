@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qtlib", "Qtlib\Qtlib.vcxproj", "{8867C22B-B6A6-375C-A946-24686DB5E76A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vcpkg-gui", "Project\vcpkg-gui.vcxproj", "{0B75635D-C26A-3A08-A380-D094D3B622A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8867C22B-B6A6-375C-A946-24686DB5E76A} = {8867C22B-B6A6-375C-A946-24686DB5E76A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8867C22B-B6A6-375C-A946-24686DB5E76A}.Debug|x64.ActiveCfg = Debug|x64
+		{8867C22B-B6A6-375C-A946-24686DB5E76A}.Debug|x64.Build.0 = Debug|x64
+		{8867C22B-B6A6-375C-A946-24686DB5E76A}.Release|x64.ActiveCfg = Release|x64
+		{8867C22B-B6A6-375C-A946-24686DB5E76A}.Release|x64.Build.0 = Release|x64
+		{0B75635D-C26A-3A08-A380-D094D3B622A4}.Debug|x64.ActiveCfg = Debug|x64
+		{0B75635D-C26A-3A08-A380-D094D3B622A4}.Debug|x64.Build.0 = Debug|x64
+		{0B75635D-C26A-3A08-A380-D094D3B622A4}.Release|x64.ActiveCfg = Release|x64
+		{0B75635D-C26A-3A08-A380-D094D3B622A4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2C69F56-344D-46EA-9FD5-3C62E12A5738}
+	EndGlobalSection
+EndGlobal

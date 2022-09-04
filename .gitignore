@@ -1,0 +1,16 @@
+/.vs
+/Project/.vs
+/Project/release
+/Project/.qm
+/Project/debug
+/Project/.qmake.stash
+/Project/vcpkg-gui.pro.user
+/Project/vcpkg-gui.vcxproj.user
+/Release
+/vcpkg-gui.exe
+/vcpkg-gui.json
+/App.log
+/Project/vcpkg-gui_resource.rc
+/Project/*.h
+/build
+/Qtlib

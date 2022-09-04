@@ -1,0 +1,75 @@
+
+QToolTip {
+	color: #ffffff;
+	background-color: #2a82da;
+	border: 1px solid white;
+}
+
+QWidget {
+	/**/
+	font-family: "Segoe UI"
+	/**/
+	/*
+	font-family: "07LogoTypeGothic7"
+	/**/
+}
+
+/**/
+QAbstractItemView {
+  alternate-background-color: #464646;
+}
+/**/
+QMainWindow,QDialog{
+	border-top: 2px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #7160E8;
+}
+
+QTreeWidget::item,
+QListView::item {
+	height: 20px;
+}
+QTreeView::item:!selected:hover,
+QListView::item:!selected:hover,
+QTableView::item:!selected:hover,
+QColumnView::item:!selected:hover {
+  outline: 0;
+  color: #E0E1E3;
+  background-color: #515151;
+}
+QTextEdit {
+	font-family: "Ricty"
+}
+#scrollAreaWidgetContents {
+	background-color: #000;
+}
+
+#title_icon {
+	
+	margin: 4px;
+	/*
+	padding:4px;
+	/**/
+}
+#title_label {
+	margin-top: 4px;
+}
+#label_status{
+	margin-left: 4px;
+	margin-bottom: 4px;
+}
+#titile_close_button {
+	width: 30px;
+}
+#titile_close_button::hover {
+	background-color: #E81123;
+}
+
+#titile_max_button::hover,
+#titile_min_button::hover {
+	background-color: #555;
+}
+
+
